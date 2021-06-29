@@ -1,0 +1,43 @@
+@font-face {
+    font-family:'Dancing Script', cursive; ;
+    src: url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+}
+body{
+    background-color: #EDE6DB;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3em;
+    margin: 50px 50px 50px 50px ;
+}
+h1{
+    text-align: center;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(172, 83, 5);
+}
+h2{
+    text-decoration-line: underline;
+}
+img{
+    width: 220px;
+    height: 260px;
+    border-radius: 25%;
+    float: right;
+    margin-right: 50px;
+}
+table, td, tr{
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin-left: 50px;
+}
+.sitation{
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+}
+footer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
