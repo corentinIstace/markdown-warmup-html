@@ -16,6 +16,13 @@ h1{
 h2{
     text-decoration-line: underline;
 }
+#hobby{
+    margin-left: 40%;
+    text-align: left;
+}
+.no{
+    list-style: none;
+}
 img{
     width: 220px;
     height: 260px;
@@ -27,20 +34,31 @@ table, td, tr{
     border-collapse: collapse;
     border: 2px solid black;
     margin-left: 50px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+#special{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    height: 400px;
+    width: 100px;
+    margin: 30px 0px 30px 0px;
+    float: left;
 }
 .sitation{
     text-align: center;
     font-style: italic;
     font-weight: lighter;
 }
-footer{
-    text-align: center;
-}
 a{
     text-decoration: none;
     color: black;
 }
-.no{
-    list-style: none;
+#morale{
+    text-align: left;
+    margin-left: 70%;
+}
+footer{
+    text-align: center;
 }
 
